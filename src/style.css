@@ -1,0 +1,59 @@
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 50%;
+}
+
+.fas,
+.fab,
+.far {
+  padding-right: 15px;
+}
+
+.fa-folder {
+  color: #e38c2d;
+}
+
+ul {
+  list-style: none;
+}
+
+.accordion-button {
+  gap: 500px;
+}
+
+img{
+  width: 100%;
+}
+
+.fa-file{
+  color: #0d6efd;
+}
+#btn{
+  color: #0d6efd;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 770px) {
+  .accordion-button {
+    gap: 100px;
+  }
+
+  hr {
+    width: 80%;
+  }
+}
