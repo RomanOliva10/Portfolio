@@ -65,12 +65,26 @@ img{
 .fa-file{
   color: color;
 }
+
 #btn{
   color: black;
 }
 
+#btn:focus{
+  border: none;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: none;
+}
+
+
 a{
   text-decoration: none;
+  color: black;
+}
+
+a:hover{
   color: black;
 }
 
