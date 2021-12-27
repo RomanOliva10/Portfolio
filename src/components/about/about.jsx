@@ -12,20 +12,20 @@ export default function About() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <span>
-              <i className="fas fa-folder"></i>About Me
+              <i className="far fa-folder"></i>About
             </span>
           </Accordion.Header>
           <Accordion.Body>
             <Button variant="none" id="btn" onClick={handleShow}>
-              <i className="fas fa-file"></i>Me
+              <i className="far fa-file"></i>About Me
             </Button>
 
             <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
-                <Modal.Title>Who I am?</Modal.Title>
+                <Modal.Title>Who am i?</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                <img src={yo} alt="" srcset="" />
+                <img src={yo}/>
                 <p>
                   What's up?. My name is Roman, welcome to my portfolio. I am a
                   19 year old boy who are taking his first steps in the IT

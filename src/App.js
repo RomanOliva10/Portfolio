@@ -7,10 +7,13 @@ export default function App() {
   return (
     <Fragment>
       <h1>\portfolio\</h1>
-      <hr />
-      <div className="main">
-        <About />
-        <Proyects />
+      <div className="container-main">
+        <hr />
+        <div className="main">
+          <About />
+          <Proyects />
+        </div>
+        <hr/>
       </div>
       <Footer />
     </Fragment>

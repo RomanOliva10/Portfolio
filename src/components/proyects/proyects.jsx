@@ -11,7 +11,7 @@ export default function Proyects() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <span>
-              <i className="fas fa-folder"></i>Proyects
+              <i className="far fa-folder"></i>Proyects
             </span>
           </Accordion.Header>
           <Accordion.Body>

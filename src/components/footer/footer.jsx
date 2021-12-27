@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <Fragment>
       <div className="container-footer">
-        <hr />
         <div className="container-contact">
           <span>
             <i className="fab fa-linkedin"></i>
@@ -21,7 +20,7 @@ export default function Footer() {
             <a href="https://github.com/RomanOliva10">My GitHub</a>
           </span>
           <p>
-            <i className="fas fa-mobile-alt"></i>Phone Number: 2233051716
+            <i className="fas fa-mobile-alt"></i>Phone Number: (+54) 2233051716
           </p>
         </div>
       </div>

@@ -101,4 +101,8 @@ export const reactm = [
         name: 'Space Tourism - Teamwork',
         url: 'https://kind-goodall-fc153d.netlify.app',
     },
+    {
+        name: 'Redux & Formik Practice',
+        url: 'https://csb-79h0x.netlify.app/',
+    },
 ];

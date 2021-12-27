@@ -8,7 +8,7 @@ export default function Js() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <span>
-              <i className="fas fa-folder"></i>Javascript
+              <i className="far fa-folder"></i>Javascript
             </span>
           </Accordion.Header>
           <Accordion.Body>
@@ -16,7 +16,7 @@ export default function Js() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
                   <span>
-                    <i className="fas fa-folder"></i>Logic
+                    <i className="far fa-folder"></i>Logic
                   </span>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -32,7 +32,7 @@ export default function Js() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
                   <span>
-                    <i className="fas fa-folder"></i>DOM
+                    <i className="far fa-folder"></i>DOM
                   </span>
                 </Accordion.Header>
                 <Accordion.Body>

@@ -8,7 +8,7 @@ export default function HtmlCss() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <span>
-              <i className="fas fa-folder"></i>HTML- CSS
+              <i className="far fa-folder"></i>HTML- CSS
             </span>
           </Accordion.Header>
           <Accordion.Body>
@@ -16,14 +16,14 @@ export default function HtmlCss() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
                   <span>
-                    <i className="fas fa-folder"></i>Cards
+                    <i className="far fa-folder"></i>Cards
                   </span>
                 </Accordion.Header>
                 <Accordion.Body>
                   {cards.map((project, index) => (
                     <Accordion.Item key={index}>
                       <a href={project.url}>
-                        <i className="fas fa-file"></i>{project.name}
+                        <i className="far fa-file"></i>{project.name}
                       </a>
                     </Accordion.Item>
                   ))}
@@ -34,14 +34,14 @@ export default function HtmlCss() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
                   <span>
-                    <i className="fas fa-folder"></i>Landings
+                    <i className="far fa-folder"></i>Landings
                   </span>
                 </Accordion.Header>
                 <Accordion.Body>
                   {landingshtmlcss.map((project, index) => (
                     <Accordion.Item key={index}>
                       <a href={project.url}>
-                        <i className="fas fa-file"></i>{project.name}
+                        <i className="far fa-file"></i>{project.name}
                       </a>
                     </Accordion.Item>
                   ))}

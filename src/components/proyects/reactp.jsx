@@ -9,14 +9,14 @@ export default function Reactp() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <span>
-              <i className="fas fa-folder"></i>React
+              <i className="far fa-folder"></i>React
             </span>
           </Accordion.Header>
           <Accordion.Body>
             {reactm.map((project, index) => (
               <Accordion.Item key={index}>
                 <a href={project.url}>
-                  <i className="fas fa-file"></i>{project.name}
+                  <i className="far fa-file"></i>{project.name}
                 </a>
               </Accordion.Item>
             ))}
