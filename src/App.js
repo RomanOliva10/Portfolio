@@ -13,7 +13,7 @@ export default function App() {
           <About />
           <Proyects />
         </div>
-        <hr/>
+        <hr className="bug"/>
       </div>
       <Footer />
     </Fragment>
